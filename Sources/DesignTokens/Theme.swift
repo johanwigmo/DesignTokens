@@ -28,6 +28,14 @@ public protocol Theme: Sendable {
     var warning: Color { get }
     var info: Color { get }
 
+    /// Content drawn on top of `primary`/`accent` fills — checkmarks on
+    /// filled circles, glyphs on tinted buttons. Contrasting a fill against
+    /// its own background can't be defaulted to one value (white fails on
+    /// light-mode fills, black on dark-mode fills), so themes that rely on
+    /// filled controls must declare it explicitly; `.white` covers system
+    /// tints well enough to keep minimal themes one-liners.
+    var onPrimary: Color { get }
+
     // MARK: Typography & Spacing (defaulted)
     var typography: ThemeTypography { get }
     var spacing: ThemeSpacing { get }
@@ -52,6 +60,7 @@ public extension Theme {
     var success: Color { .green }
     var warning: Color { .orange }
     var info: Color { .blue }
+    var onPrimary: Color { .white }
 
     var typography: ThemeTypography { .default }
     var spacing: ThemeSpacing { .default }

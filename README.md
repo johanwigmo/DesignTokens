@@ -4,6 +4,11 @@ A Swift package providing a themeable design token system for iOS apps. Defines 
 
 Requires iOS 26+ and Swift 6.2.
 
+**Two themes ship in `Sources`:**
+
+- **`DefaultTheme`** — pure system-stock iOS look; the neutral floor and the "do nothing special" fallback
+- **`TinyTheme`** — the house style ("Tiny"): warm paper surfaces with Gruvbox-family accents and a rounded type ramp; intended as the shared visual identity across Tiny Apps. Its contrast pairings are enforced by WCAG AA tests (`TinyThemeWCAGTests`, both modes) — adjust palette values only via the gate, never around it
+
 ## Setup
 
 ```swift
@@ -72,6 +77,11 @@ All tokens map to `Font.TextStyle` so Dynamic Type works automatically.
 | `.xxl`      | 32pt   |                    |
 | `.xxxl`     | 48pt   |                    |
 | `.minTapTarget` | 44pt | HIG minimum    |
+
+`Theme` also carries `onPrimary` — the content color drawn on top of
+`primary`/`accent` fills (checkmarks on filled circles, glyphs on tinted
+buttons). Defaults to `.white`; themes with light-mode fills must declare an
+adaptive value.
 
 ## WCAG Compliance
 
@@ -169,12 +179,13 @@ DesignTokens/
 ├── LICENSE
 ├── Sources/DesignTokens/
 │   ├── Theme.swift              ← Protocol + DefaultTheme
+│   ├── TinyTheme.swift           ← House theme
 │   ├── Typography.swift         ← Font tokens
 │   ├── Spacing.swift            ← Spacing tokens
 │   ├── ThemeEnvironment.swift   ← @Environment integration
 │   ├── Modifiers.swift          ← View modifiers
 │   └── ContrastCheck.swift      ← WCAG utilities
-├── Tests/DesignTokensTests/     ← Unit tests
+├── Tests/DesignTokensTests/     ← Unit tests incl. WCAG gate
 └── Examples/
     ├── OceanTheme.swift         ← Example custom theme
     └── ExampleUsage.swift       ← Usage patterns
