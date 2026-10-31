@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="446" viewBox="0 0 820 446">
+<g>
+<rect x="0" y="0" width="400" height="446" rx="14" fill="#FFFFFF"/>
+<text x="18" y="30" font-family="-apple-system, 'Helvetica Neue', sans-serif" font-size="15" font-weight="600" fill="#000000D8">Default · Light</text>
+<text x="18" y="48" font-family="-apple-system, 'Helvetica Neue', sans-serif" font-size="9.5" fill="#0000007F">Stock iOS · system colors · standard metrics</text>
+<text x="382" y="44" font-family="-apple-system, 'Helvetica Neue', sans-serif" font-size="26" font-weight="500" text-anchor="end" fill="#000000D8">Aa</text>
+<text x="18" y="68" font-family="-apple-system, 'Helvetica Neue', sans-serif" font-size="9" letter-spacing="1.2" fill="#0000007F">BRAND</text>
+<rect x="26.5" y="74" width="74" height="46" rx="9" fill="#0088FF"/>
+<text x="63.5" y="134" font-family="-apple-system, 'Helvetica Neue', sans-serif" font-size="9.5" text-anchor="middle" fill="#000000D8">primary</text>
+<text x="63.5" y="146" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="8.5" text-anchor="middle" fill="#0000007F">#0088FF</text>
+<rect x="117.5" y="74" width="74" height="46" rx="9" fill="#0000007F"/>
+<text x="154.5" y="134" font-family="-apple-system, 'Helvetica Neue', sans-serif" font-size="9.5" text-anchor="middle" fill="#000000D8">secondary</text>
+<text x="154.5" y="146" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="8.5" text-anchor="middle" fill="#0000007F">#0000007F</text>
+<rect x="208.5" y="74" width="74" height="46" rx="9" fill="#0088FF"/>
+<text x="245.5" y="134" font-family="-apple-system, 'Helvetica Neue', sans-serif" font-size="9.5" text-anchor="middle" fill="#000000D8">accent</text>
+<text x="245.5" y="146" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="8.5" text-anchor="middle" fill="#0000007F">#0088FF</text>
+<rect x="299.5" y="74" width="74" height="46" rx="9" fill="#0088FF"/>
+<text x="336.5" y="103" font-family="-apple-system, 'Helvetica Neue', sans-serif" font-size="16" font-weight="600" text-anchor="middle" fill="#FFFFFF">Aa</text>
+<text x="336.5" y="134" font-family="-apple-system, 'Helvetica Neue', sans-serif" font-size="9.5" text-anchor="middle" fill="#000000D8">onPrimary</text>
+<text x="336.5" y="146" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="8.5" text-anchor="middle" fill="#0000007F">on #0088FF</text>
+<text x="18" y="168" font-family="-apple-system, 'Helvetica Neue', sans-serif" font-size="9" letter-spacing="1.2" fill="#0000007F">SURFACES</text>
+<rect x="26.5" y="174" width="74" height="46" rx="9" fill="#FFFFFF" stroke="#00000073" stroke-width="1"/>
+<text x="63.5" y="234" font-family="-apple-system, 'Helvetica Neue', sans-serif" font-size="9.5" text-anchor="middle" fill="#000000D8">background</text>
+<text x="63.5" y="246" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="8.5" text-anchor="middle" fill="#0000007F">#FFFFFF</text>
+<rect x="117.5" y="174" width="74" height="46" rx="9" fill="#ECECEC" stroke="#00000073" stroke-width="1"/>
+<text x="154.5" y="234" font-family="-apple-system, 'Helvetica Neue', sans-serif" font-size="9.5" text-anchor="middle" fill="#000000D8">surface</text>
+<text x="154.5" y="246" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="8.5" text-anchor="middle" fill="#0000007F">#ECECEC</text>
+<rect x="208.5" y="174" width="74" height="46" rx="9" fill="#FFFFFF" stroke="#00000073" stroke-width="1"/>
+<text x="245.5" y="234" font-family="-apple-system, 'Helvetica Neue', sans-serif" font-size="9.5" text-anchor="middle" fill="#000000D8">surfaceSecondary</text>
+<text x="245.5" y="246" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="8.5" text-anchor="middle" fill="#0000007F">#FFFFFF</text>
+<rect x="299.5" y="174" width="74" height="46" rx="9" fill="none"/>
+<line x1="309.5" y1="197" x2="363.5" y2="197" stroke="#00000019" stroke-width="1.4"/>
+<text x="336.5" y="234" font-family="-apple-system, 'Helvetica Neue', sans-serif" font-size="9.5" text-anchor="middle" fill="#000000D8">separator</text>
+<text x="336.5" y="246" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="8.5" text-anchor="middle" fill="#0000007F">#00000019</text>
+<text x="18" y="268" font-family="-apple-system, 'Helvetica Neue', sans-serif" font-size="9" letter-spacing="1.2" fill="#0000007F">TEXT</text>
+<rect x="26.5" y="274" width="74" height="46" rx="9" fill="#000000D8"/>
+<text x="63.5" y="334" font-family="-apple-system, 'Helvetica Neue', sans-serif" font-size="9.5" text-anchor="middle" fill="#000000D8">label</text>
+<text x="63.5" y="346" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="8.5" text-anchor="middle" fill="#0000007F">#000000D8</text>
+<rect x="117.5" y="274" width="74" height="46" rx="9" fill="#0000007F"/>
+<text x="154.5" y="334" font-family="-apple-system, 'Helvetica Neue', sans-serif" font-size="9.5" text-anchor="middle" fill="#000000D8">labelSecondary</text>
+<text x="154.5" y="346" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="8.5" text-anchor="middle" fill="#0000007F">#0000007F</text>
+<rect x="208.5" y="274" width="74" height="46" rx="9" fill="#00000042"/>
+<text x="245.5" y="334" font-family="-apple-system, 'Helvetica Neue', sans-serif" font-size="9.5" text-anchor="middle" fill="#000000D8">labelTertiary</text>
+<text x="245.5" y="346" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="8.5" text-anchor="middle" fill="#0000007F">#00000042</text>
+<rect x="299.5" y="274" width="74" height="46" rx="9" fill="#00000019"/>
+<text x="336.5" y="334" font-family="-apple-system, 'Helvetica Neue', sans-serif" font-size="9.5" text-anchor="middle" fill="#000000D8">labelQuaternary</text>
+<text x="336.5" y="346" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="8.5" text-anchor="middle" fill="#0000007F">#00000019</text>
+<text x="18" y="368" font-family="-apple-system, 'Helvetica Neue', sans-serif" font-size="9" letter-spacing="1.2" fill="#0000007F">STATUS</text>
+<rect x="26.5" y="374" width="74" height="46" rx="9" fill="#34C759"/>
+<text x="63.5" y="434" font-family="-apple-system, 'Helvetica Neue', sans-serif" font-size="9.5" text-anchor="middle" fill="#000000D8">success</text>
+<text x="63.5" y="446" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="8.5" text-anchor="middle" fill="#0000007F">#34C759</text>
+<rect x="117.5" y="374" width="74" height="46" rx="9" fill="#FF8D28"/>
+<text x="154.5" y="434" font-family="-apple-system, 'Helvetica Neue', sans-serif" font-size="9.5" text-anchor="middle" fill="#000000D8">warning</text>
+<text x="154.5" y="446" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="8.5" text-anchor="middle" fill="#0000007F">#FF8D28</text>
+<rect x="208.5" y="374" width="74" height="46" rx="9" fill="#FF383C"/>
+<text x="245.5" y="434" font-family="-apple-system, 'Helvetica Neue', sans-serif" font-size="9.5" text-anchor="middle" fill="#000000D8">destructive</text>
+<text x="245.5" y="446" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="8.5" text-anchor="middle" fill="#0000007F">#FF383C</text>
+<rect x="299.5" y="374" width="74" height="46" rx="9" fill="#0088FF"/>
+<text x="336.5" y="434" font-family="-apple-system, 'Helvetica Neue', sans-serif" font-size="9.5" text-anchor="middle" fill="#000000D8">info</text>
+<text x="336.5" y="446" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="8.5" text-anchor="middle" fill="#0000007F">#0088FF</text>
+</g>
+<g>
+<rect x="420" y="0" width="400" height="446" rx="14" fill="#1E1E1E"/>
+<text x="438" y="30" font-family="-apple-system, 'Helvetica Neue', sans-serif" font-size="15" font-weight="600" fill="#FFFFFFD8">Default · Dark</text>
+<text x="438" y="48" font-family="-apple-system, 'Helvetica Neue', sans-serif" font-size="9.5" fill="#FFFFFF8C">Stock iOS · system colors · standard metrics</text>
+<text x="802" y="44" font-family="-apple-system, 'Helvetica Neue', sans-serif" font-size="26" font-weight="500" text-anchor="end" fill="#FFFFFFD8">Aa</text>
+<text x="438" y="68" font-family="-apple-system, 'Helvetica Neue', sans-serif" font-size="9" letter-spacing="1.2" fill="#FFFFFF8C">BRAND</text>
+<rect x="446.5" y="74" width="74" height="46" rx="9" fill="#0091FF"/>
+<text x="483.5" y="134" font-family="-apple-system, 'Helvetica Neue', sans-serif" font-size="9.5" text-anchor="middle" fill="#FFFFFFD8">primary</text>
+<text x="483.5" y="146" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="8.5" text-anchor="middle" fill="#FFFFFF8C">#0091FF</text>
+<rect x="537.5" y="74" width="74" height="46" rx="9" fill="#FFFFFF8C"/>
+<text x="574.5" y="134" font-family="-apple-system, 'Helvetica Neue', sans-serif" font-size="9.5" text-anchor="middle" fill="#FFFFFFD8">secondary</text>
+<text x="574.5" y="146" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="8.5" text-anchor="middle" fill="#FFFFFF8C">#FFFFFF8C</text>
+<rect x="628.5" y="74" width="74" height="46" rx="9" fill="#0091FF"/>
+<text x="665.5" y="134" font-family="-apple-system, 'Helvetica Neue', sans-serif" font-size="9.5" text-anchor="middle" fill="#FFFFFFD8">accent</text>
+<text x="665.5" y="146" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="8.5" text-anchor="middle" fill="#FFFFFF8C">#0091FF</text>
+<rect x="719.5" y="74" width="74" height="46" rx="9" fill="#0091FF"/>
+<text x="756.5" y="103" font-family="-apple-system, 'Helvetica Neue', sans-serif" font-size="16" font-weight="600" text-anchor="middle" fill="#FFFFFF">Aa</text>
+<text x="756.5" y="134" font-family="-apple-system, 'Helvetica Neue', sans-serif" font-size="9.5" text-anchor="middle" fill="#FFFFFFD8">onPrimary</text>
+<text x="756.5" y="146" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="8.5" text-anchor="middle" fill="#FFFFFF8C">on #0091FF</text>
+<text x="438" y="168" font-family="-apple-system, 'Helvetica Neue', sans-serif" font-size="9" letter-spacing="1.2" fill="#FFFFFF8C">SURFACES</text>
+<rect x="446.5" y="174" width="74" height="46" rx="9" fill="#1E1E1E" stroke="#FFFFFF73" stroke-width="1"/>
+<text x="483.5" y="234" font-family="-apple-system, 'Helvetica Neue', sans-serif" font-size="9.5" text-anchor="middle" fill="#FFFFFFD8">background</text>
+<text x="483.5" y="246" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="8.5" text-anchor="middle" fill="#FFFFFF8C">#1E1E1E</text>
+<rect x="537.5" y="174" width="74" height="46" rx="9" fill="#1E1E1E" stroke="#FFFFFF73" stroke-width="1"/>
+<text x="574.5" y="234" font-family="-apple-system, 'Helvetica Neue', sans-serif" font-size="9.5" text-anchor="middle" fill="#FFFFFFD8">surface</text>
+<text x="574.5" y="246" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="8.5" text-anchor="middle" fill="#FFFFFF8C">#1E1E1E</text>
+<rect x="628.5" y="174" width="74" height="46" rx="9" fill="#323232" stroke="#FFFFFF73" stroke-width="1"/>
+<text x="665.5" y="234" font-family="-apple-system, 'Helvetica Neue', sans-serif" font-size="9.5" text-anchor="middle" fill="#FFFFFFD8">surfaceSecondary</text>
+<text x="665.5" y="246" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="8.5" text-anchor="middle" fill="#FFFFFF8C">#323232</text>
+<rect x="719.5" y="174" width="74" height="46" rx="9" fill="none"/>
+<line x1="729.5" y1="197" x2="783.5" y2="197" stroke="#FFFFFF19" stroke-width="1.4"/>
+<text x="756.5" y="234" font-family="-apple-system, 'Helvetica Neue', sans-serif" font-size="9.5" text-anchor="middle" fill="#FFFFFFD8">separator</text>
+<text x="756.5" y="246" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="8.5" text-anchor="middle" fill="#FFFFFF8C">#FFFFFF19</text>
+<text x="438" y="268" font-family="-apple-system, 'Helvetica Neue', sans-serif" font-size="9" letter-spacing="1.2" fill="#FFFFFF8C">TEXT</text>
+<rect x="446.5" y="274" width="74" height="46" rx="9" fill="#FFFFFFD8"/>
+<text x="483.5" y="334" font-family="-apple-system, 'Helvetica Neue', sans-serif" font-size="9.5" text-anchor="middle" fill="#FFFFFFD8">label</text>
+<text x="483.5" y="346" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="8.5" text-anchor="middle" fill="#FFFFFF8C">#FFFFFFD8</text>
+<rect x="537.5" y="274" width="74" height="46" rx="9" fill="#FFFFFF8C"/>
+<text x="574.5" y="334" font-family="-apple-system, 'Helvetica Neue', sans-serif" font-size="9.5" text-anchor="middle" fill="#FFFFFFD8">labelSecondary</text>
+<text x="574.5" y="346" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="8.5" text-anchor="middle" fill="#FFFFFF8C">#FFFFFF8C</text>
+<rect x="628.5" y="274" width="74" height="46" rx="9" fill="#FFFFFF3F"/>
+<text x="665.5" y="334" font-family="-apple-system, 'Helvetica Neue', sans-serif" font-size="9.5" text-anchor="middle" fill="#FFFFFFD8">labelTertiary</text>
+<text x="665.5" y="346" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="8.5" text-anchor="middle" fill="#FFFFFF8C">#FFFFFF3F</text>
+<rect x="719.5" y="274" width="74" height="46" rx="9" fill="#FFFFFF19"/>
+<text x="756.5" y="334" font-family="-apple-system, 'Helvetica Neue', sans-serif" font-size="9.5" text-anchor="middle" fill="#FFFFFFD8">labelQuaternary</text>
+<text x="756.5" y="346" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="8.5" text-anchor="middle" fill="#FFFFFF8C">#FFFFFF19</text>
+<text x="438" y="368" font-family="-apple-system, 'Helvetica Neue', sans-serif" font-size="9" letter-spacing="1.2" fill="#FFFFFF8C">STATUS</text>
+<rect x="446.5" y="374" width="74" height="46" rx="9" fill="#30D158"/>
+<text x="483.5" y="434" font-family="-apple-system, 'Helvetica Neue', sans-serif" font-size="9.5" text-anchor="middle" fill="#FFFFFFD8">success</text>
+<text x="483.5" y="446" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="8.5" text-anchor="middle" fill="#FFFFFF8C">#30D158</text>
+<rect x="537.5" y="374" width="74" height="46" rx="9" fill="#FF9230"/>
+<text x="574.5" y="434" font-family="-apple-system, 'Helvetica Neue', sans-serif" font-size="9.5" text-anchor="middle" fill="#FFFFFFD8">warning</text>
+<text x="574.5" y="446" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="8.5" text-anchor="middle" fill="#FFFFFF8C">#FF9230</text>
+<rect x="628.5" y="374" width="74" height="46" rx="9" fill="#FF4245"/>
+<text x="665.5" y="434" font-family="-apple-system, 'Helvetica Neue', sans-serif" font-size="9.5" text-anchor="middle" fill="#FFFFFFD8">destructive</text>
+<text x="665.5" y="446" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="8.5" text-anchor="middle" fill="#FFFFFF8C">#FF4245</text>
+<rect x="719.5" y="374" width="74" height="46" rx="9" fill="#0091FF"/>
+<text x="756.5" y="434" font-family="-apple-system, 'Helvetica Neue', sans-serif" font-size="9.5" text-anchor="middle" fill="#FFFFFFD8">info</text>
+<text x="756.5" y="446" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="8.5" text-anchor="middle" fill="#FFFFFF8C">#0091FF</text>
+</g>
+</svg>

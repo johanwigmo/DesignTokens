@@ -4,10 +4,20 @@ A Swift package providing a themeable design token system for iOS apps. Defines 
 
 Requires iOS 26+ and Swift 6.2.
 
-**Two themes ship in `Sources`:**
+## Themes
 
-- **`DefaultTheme`** — pure system-stock iOS look; the neutral floor and the "do nothing special" fallback
-- **`TinyTheme`** — the house style ("Tiny"): warm paper surfaces with Gruvbox-family accents and a rounded type ramp; intended as the shared visual identity across Tiny Apps. Its contrast pairings are enforced by WCAG AA tests (`TinyThemeWCAGTests`, both modes) — adjust palette values only via the gate, never around it
+Two themes ship in `Sources` — each has a doc with its palette, contrast
+table, and a generated preview card.
+
+| Theme | Preview |
+|-------|---------|
+| **[`DefaultTheme`](Documentation/Themes/DefaultTheme.md)** — pure system-stock iOS look; the neutral floor and the "do nothing special" fallback | <img src="Documentation/Themes/assets/DefaultTheme.svg" width="420"> |
+| **[`TinyTheme`](Documentation/Themes/TinyTheme.md)** — the house style: warm paper surfaces with Gruvbox-family accents and a rounded type ramp; WCAG AA gated by tests in both modes | <img src="Documentation/Themes/assets/TinyTheme.svg" width="420"> |
+
+Preview cards and palette tables are generated from the compiled themes and
+gate-checked by `ThemeDocsGateTests`. After a deliberate palette change, run
+`ThemeDocsGateTests/regenerate` in Xcode and commit the result — don't edit
+generated content by hand.
 
 ## Setup
 
@@ -177,6 +187,7 @@ struct OceanTheme: Theme {
 DesignTokens/
 ├── Package.swift
 ├── LICENSE
+├── Documentation/Themes/          ← Per-theme docs + generated previews
 ├── Sources/DesignTokens/
 │   ├── Theme.swift              ← Protocol + DefaultTheme
 │   ├── TinyTheme.swift           ← House theme
@@ -185,7 +196,7 @@ DesignTokens/
 │   ├── ThemeEnvironment.swift   ← @Environment integration
 │   ├── Modifiers.swift          ← View modifiers
 │   └── ContrastCheck.swift      ← WCAG utilities
-├── Tests/DesignTokensTests/     ← Unit tests incl. WCAG gate
+├── Tests/DesignTokensTests/     ← Unit tests incl. WCAG + docs gates
 └── Examples/
     ├── OceanTheme.swift         ← Example custom theme
     └── ExampleUsage.swift       ← Usage patterns

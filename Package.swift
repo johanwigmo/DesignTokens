@@ -5,7 +5,8 @@ import PackageDescription
 let package = Package(
     name: "DesignTokens",
     platforms: [
-        .iOS(.v26)
+        .iOS(.v26),
+        .macCatalyst(.v26)  // Docs gate: lets xcodebuild run tests on the host without a simulator
     ],
     products: [
         .library(
